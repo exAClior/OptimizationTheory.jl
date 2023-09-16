@@ -1,0 +1,33 @@
+#+TITLE: Optimization
+
+* What is optimization
+- Make better decision
+
+* Tool
+- Linear Programming
+- Robust linear optimization: an optimziation technique that guards you against
+  parameter fluctutation. Parameters fluctuation natrually since the data you
+  get is always from sampling a small amount of samples. This is known as
+  *knightian uncertainty*
+- Ofcourse: there's another kind of uncertainty which is *risk*!! This is called
+  stoachastic unvertainty
+
+** Simplex Algorithm:
+- an algorithm that finds the optimal solution to the linear optimization problem.
+- I.e finds the vertex that maximizes target.
+
+** Convex set and convex function
+
+
+** Integer problem
+- All problem variables are integers
+- Binary integer problem: solution is either 0 or 1
+
+** Relaxation
+- Find the problem that provides the lower bound to the current one
+- Example: linear relaxation from integer problem to liear one
+- Example: Lagrandian relaxation: Lagrangian multiplier
+*** Equivlance
+- If the relatex problem's solution could be transformed back to the optimal
+  solution of the unrelaxed one.
+- Could be checked if A is relaxation of B and B is a relaxation of A.
